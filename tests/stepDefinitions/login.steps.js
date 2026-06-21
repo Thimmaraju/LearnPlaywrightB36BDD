@@ -1,7 +1,7 @@
 const { Given,When,Then } = require("@cucumber/cucumber");
 const {expect} = require("@playwright/test")
 
-Given('User Launch the Application', async function () {
+Given('User Launch the Application ', async function () {
   
     await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 });
