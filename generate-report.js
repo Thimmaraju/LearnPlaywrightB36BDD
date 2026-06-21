@@ -19,7 +19,7 @@ reporter.generate({
   customData: {
     title: 'Run info',
     data: [
-      { label: 'Project', value: 'Playwright Cucumber Demo' },
+      { label: 'Project', value: 'Orange HRM' },
       { label: 'Release', value: '1.0.0' },
       { label: 'Cycle', value: 'B11221.34321' },
       { label: 'Execution Start Time', value: new Date().toLocaleString() },
